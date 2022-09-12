@@ -6,7 +6,7 @@ const bodyContainer = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    backgroundColor: '#282c34',
+    backgroundColor: 'lightblue',
     padding: '10px',
 }
 
@@ -15,17 +15,17 @@ const todoListContainer = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    backgroundColor: 'aqua',
+    backgroundColor: 'lightgreen',
     borderRadius: '10px',
     width: '600px',
-    boxShadow: '0 0 10px 0 rgba(255,255,255,.5',
+    boxShadow: '5px 10px #808080',
 }
 
 function App() {
   return (
     <div style={bodyContainer}>
         <div style={todoListContainer}>
-            <h1>Accio Todo</h1>
+            <h1> My To-Do List</h1>
 
             {/* LIST */}
             <List/>
